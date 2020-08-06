@@ -19,6 +19,11 @@ $('#fullpage').fullpage({
     scrollHorizontally: true,
     sectionSelector: '.page-section'
 })
+
+
+$('.btn__menu').on('click', function(){
+    $('.menu__list').slideToggle();
+  });
   
 });
 
